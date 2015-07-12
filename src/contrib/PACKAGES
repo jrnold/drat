@@ -5,3 +5,15 @@ License: GPL (>= 2)
 MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
+Package: rstan
+Version: 2.6.0
+Depends: R (>= 3.0.2), Rcpp (>= 0.9.10), utils,
+     inline, methods
+Imports: stats4
+LinkingTo: Rcpp, RcppEigen, BH (>= 1.54)
+Suggests: RUnit, RcppEigen, BH (>= 1.54),
+     parallel, KernSmooth
+License: GPL (>= 3)
+MD5sum: 27095f13a6982d624dd68b52871f56d3
+NeedsCompilation: yes
+
